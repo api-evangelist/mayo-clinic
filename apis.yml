@@ -7,10 +7,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Healthcare
-  - Medical
   - Clinical Data
+  - Healthcare
   - Hospital
+  - Medical
 url: >-
   https://raw.githubusercontent.com/api-evangelist/mayo-clinic/refs/heads/main/apis.yml
 created: '2025-02-12'
@@ -25,9 +25,8 @@ apis:
       services.
     humanURL: https://apiportal.mcc.mayo.edu/
     tags:
-      - Healthcare
       - Clinical
-      - API
+      - Healthcare
     properties:
       - type: Documentation
         url: https://apiportal.mcc.mayo.edu/
