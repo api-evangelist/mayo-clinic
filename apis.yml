@@ -5,7 +5,7 @@ description: >-
   healthcare APIs hosted on an Apigee API catalog. Developers can review,
   test, and integrate with available APIs for healthcare data and services.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Clinical Data
   - Healthcare
