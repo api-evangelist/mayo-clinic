@@ -31,6 +31,8 @@ apis:
       - type: Documentation
         url: https://apiportal.mcc.mayo.edu/
 common:
+  - type: DomainSecurity
+    url: security/mayo-clinic-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/mayo-clinic
   - type: Portal
