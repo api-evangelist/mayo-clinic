@@ -27,7 +27,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/mayo-clinic/refs/heads/main/apis.yml
 created: '2025-02-12'
 modified: '2026-04-28'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: mayo-clinic:mayo-clinic-api
     name: Mayo Clinic API
