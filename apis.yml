@@ -32,6 +32,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mayo-clini
 tags:
   - Clinical Data
   - Healthcare
+  - Hospitals
+  - Medical
+tags_raw:
+  - Clinical Data
+  - Healthcare
   - Hospital
   - Medical
 url: >-
