@@ -59,6 +59,12 @@ apis:
       - type: Documentation
         url: https://apiportal.mcc.mayo.edu/
 common:
+  - type: Plans
+    url: plans/mayo-clinic-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/mayo-clinic-rate-limits.yml
+  - type: FinOps
+    url: finops/mayo-clinic-finops.yml
   - type: DomainSecurity
     url: security/mayo-clinic-domain-security.yml
   - type: LinkedIn
