@@ -1,0 +1,60 @@
+edges:
+- partner_name: CMS NPPES (National Plan and Provider Enumeration System)
+  partner: null
+  partner_match: register
+  type: register
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://npiregistry.cms.hhs.gov/api/?version=2.1&number=1083249577
+  category: US healthcare provider NPI enumeration
+  contract_reference:
+    register: CMS NPPES NPI Registry (npiregistry.cms.hhs.gov API v2.1, NPI-2 organisations)
+    standard: National Provider Identifier (HIPAA standard unique health identifier, 45 CFR 162 Subpart D)
+    spec_file: null
+    role: npi-2-organization
+    registered_name: MAYO CLINIC
+    register_id: '1083249577'
+    register_country: US
+    register_state: MN
+    npi_status: A
+    enumeration_date: '2020-03-05'
+    primary_taxonomy: Clinical Medical Laboratory
+    primary_taxonomy_code: 291U00000X
+    matched_domain: mayoclinic.org
+    matched_by: register-name+state
+    other_registrations:
+    - '1114343860'
+    - '1164758868'
+    - '1356291603'
+    - '1427235068'
+    - '1467622092'
+    - '1508762600'
+    - '1538568928'
+    - '1588895643'
+    - '1821326570'
+    - '1881018208'
+    national_directory:
+      ndh: found
+      ndh_verification_status: complete
+      ndh_part_of: Organization/Organization-e816827a-f7db-487e-8cb2-f5caeec00f14
+    signal_note: 'regulated identity: the organisation is enumerated in NPPES (an NPI-2 is required of HIPAA covered
+      healthcare providers); exact legal name AND (an own-domain endpoint or the Wikidata HQ state); other NPIs
+      are context, never counted'
+    detected_by: sweep-us-npi-health-provider-registry.py
+    detected: '2026-10-22'
+    hq_state: MN
+    identity: wikidata Q1130172 'Mayo Clinic' P856 https://mayoclinic.org
+    identity_source: wikidata P856 + P159 (HQ state; labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-us-npi-health-provider-registry.py
+  first_seen: '2026-10-22'
+generated: '2026-10-22'
+method: searched
+source:
+- https://npiregistry.cms.hhs.gov/
+- https://directory.cms.gov/fhir/
+- https://download.cms.gov/nppes/NPI_Files.html
+checked:
+- https://directory.cms.gov/fhir/
+- https://download.cms.gov/nppes/NPI_Files.html
+- https://npiregistry.cms.hhs.gov/
